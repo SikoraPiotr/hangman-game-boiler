@@ -1,0 +1,19 @@
+extends layouts/default
+block content
+    .topmatter
+        .hang-container
+            .scaffolding-top
+            .scaffolding-left
+            .draw-area
+                .rope
+            .scaffolding-base
+        .side-container
+            .container-title Guess Letter!
+            .input-area
+                input#letter-input(type='text', maxlength='1')
+        .side-container
+            .container-title Guessed Letters
+            #wrong-letters.input-area
+    .bottommatter
+        .word-box
+            .word-display
